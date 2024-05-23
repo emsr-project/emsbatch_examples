@@ -1,6 +1,6 @@
 {
   "name": "test.complete",
-  "code_folder": "/home/user/example_ws/complete",
+  "code_folder": ".",
   "ignore_globs": ["*.pyc", "*.ipynb", "*__pycache__*"],
   "shared": {
     "vcpus": 15,
