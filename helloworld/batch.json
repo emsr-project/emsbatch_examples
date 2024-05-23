@@ -1,0 +1,10 @@
+{
+  "name": "test.helloworld",
+  "code_folder": ".",
+  "job_specs":[
+  {
+    "command": "python helloworld.py",
+    "notes": "run helloworld"
+  }
+]
+}

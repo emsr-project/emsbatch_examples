@@ -1,0 +1,22 @@
+{
+  "name": "test.parallel",
+  "code_folder": ".",
+  "shared": {
+    "vcpus": 1,
+    "memory_in_gb": 10
+  },
+  "job_specs":[
+  {
+    "command": "python sleep10.py"
+  },
+  {
+    "command": "python sleep10.py"
+  },
+  {
+    "command": "python sleep10.py"
+  },
+  {
+    "command": "python sleep10.py"
+  }
+]
+}

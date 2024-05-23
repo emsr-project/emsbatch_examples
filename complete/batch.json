@@ -1,0 +1,19 @@
+{
+  "name": "test.complete",
+  "code_folder": "/home/user/example_ws/complete",
+  "ignore_globs": ["*.pyc", "*.ipynb", "*__pycache__*"],
+  "shared": {
+    "vcpus": 15,
+    "memory_in_gb": 5,
+    "env_vars":{
+      "HELLO": 1,
+      "WORELD": 2
+    }
+  },
+  "job_specs":[
+  {
+    "command": "python run.py",
+    "notes": "run test1"
+  }
+]
+}

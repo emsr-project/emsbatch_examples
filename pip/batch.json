@@ -1,0 +1,10 @@
+{
+  "name": "test.pip",
+  "code_folder": ".",
+  "job_specs":[
+  {
+    "command": "pip install numpy",
+    "notes": "run pip"
+  }
+]
+}
